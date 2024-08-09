@@ -1,5 +1,5 @@
 const arr = ['a', 'e', 'i', 'o', 'u','A', 'E', 'I', 'O', 'U'];
-function countVowel(str) {
+export function countVowel(str) {
     let counter = 0;
     if (str.length == 0 || str.length > 8) {
         console.log('error', 'enter a 8 or less character word')}
