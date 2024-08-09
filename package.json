@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {"test": "playwright test"
+  "scripts": {"test": "vitest"
 },
   "author": "School of Code",
   "license": "ISC",
