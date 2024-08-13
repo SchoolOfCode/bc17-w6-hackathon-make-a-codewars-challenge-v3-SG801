@@ -7,7 +7,7 @@ test('count the number of vowels in a string', async () => {
     const testCase = [
         { str: 'Coding', expectedCount: 2 },
         { str: 'Hijango', expectedCount: 3 },
-        //{ str: 'CodeNinja', expectedCount: null, error: 'enter an 8 or less character word' }
+        { str: 'CodeNinja', expectedCount: null, error: 'enter an 8 or less character word' }
     ];
     for (const { str, expectedCount} of testCase) {
         
